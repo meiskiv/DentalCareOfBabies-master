@@ -1,0 +1,445 @@
+<resources>
+    <string name="app_name">Dental Care of Babies</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="inicio_bemvindo">Bem-vindo ao aplicativo Dental Care of Babies.</string>
+    <string name="inicio_toque_inicial">Toque em \'+\' e realize o cadastro inicial.</string>
+    <string name="inicio_toque_inicial_data_imcompleta">Parabéns! Você já realizou o cadastro inicial.
+        Aguarde o bebê completar um mês para continuar o acompanhamento</string>
+    <string name="inicio_toque_primeiro_mes">Parabéns! Você já realizou o cadastro inicial. Agora
+        toque em \'+\' e realize o cadastro do primeiro mês.</string>
+    <string name="inicio_aguarde_terceiro_mes">Aguarde para realizar o cadastro do terceiro mês</string>
+    <string name="inicio_aguarde_sexto_mes">O cadastro do sexto mês estará disponível em breve...</string>
+    <string name="inicio_toque_terceiro_mes">Toque em \'+\' e realize o cadastro do terceiro mês</string>
+    <string name="inicio_toque_sexto_mes">Toque em \'+\' e realize o cadastro do sexto mês</string>
+    <string name="inicio_aguarde_primeiroAno">Aguarde para fazer o cadastro do 1º ano do bebê</string>
+    <string name="cadastro_primeiroAno">O cadastro do primeiro ano está disponível! Toque em \'+\' para realizá-lo. </string>
+
+    <string name="cadastro">Cadastrar</string>
+    <string name="title_activity_tela_cadastro1">Cadastro Inicial</string>
+    <string name="tela_1_title_message">Identificação do Usuário Responsável pela Criança</string>
+    <string name="tela_1_cartao_sus">Número do cartão SUS:</string>
+    <string name="tela_1_nome">Nome Completo:</string>
+    <string name="tela_1_data">Data de Nascimento:</string>
+    <string name="tela_1_radio_genero">Gênero:</string>
+    <string name="tela_1_radio_genero_m">Masculino</string>
+    <string name="tela_1_radio_genero_f">Feminino</string>
+    <string name="tela_1_radiogroup_cor">Raça/Cor:</string>
+    <string name="tela_1_radio_cor_b">Branca</string>
+    <string name="tela_1_radio_cor_pa">Parda</string>
+    <string name="tela_1_radio_cor_pr">Preta</string>
+    <string name="tela_1_radio_cor_a">Amarela</string>
+    <string name="tela_1_radio_cor_i">Indígena</string>
+    <string name="tela_1_cidade">Residente na cidade de:</string>
+    <string name="tela_1_telefone">Telefone:</string>
+    <string name="tela_1_email">Email:</string>
+    <string name="title_activity_tela_cadastro2">Tela Cadastro Inicial</string>
+
+
+    <string name="tela_2_title_message">Dados do Responsável/Mãe da Criança</string>
+    <string name="tela_2_pergunta_curso">Qual o curso mais elevado que frequenta ou frequentou?
+    </string>
+    <string name="tela_2_radio_fund_i">Ensino Fundamental Incompleto</string>
+    <string name="tela_2_radio_fund_c">Ensino Fundamental Completo</string>
+    <string name="tela_2_radio_med_i">Ensino Médio Incompleto</string>
+    <string name="tela_2_radio_med_c">Ensino Fundamental Completo</string>
+    <string name="tela_2_radio_sup_i">Ensino Superior Incompleto</string>
+    <string name="tela_2_radio_sup_c">Ensino Fundamental Completo</string>
+    <string name="tela_2_pergunta_emprego">Situação no mercado de trabalho:</string>
+    <string name="tela_2_radio_emp_e">Empregador</string>
+    <string name="tela_2_radio_emp_as_c">Assalariado com carteira de trabalho</string>
+    <string name="tela_2_radio_emp_as_s">Assalariado sem carteira de trabalho</string>
+    <string name="tela_2_radio_emp_au_c">Autônomo com previdência social</string>
+    <string name="tela_2_radio_emp_au_s">Autônomo sem previdencia social</string>
+    <string name="tela_2_radio_emp_ap">Aposentada/Pensionista</string>
+    <string name="tela_2_radio_emp_d">Desempregada</string>
+    <string name="tela_2_radio_emp_n">Não trabalha</string>
+    <string name="tela_2_radio_emp_o">Outro</string>
+
+
+    <string name="tela_3_title_message">Dados do Responsável/Mãe da Criança</string>
+    <string name="tela_3_pergunta_saude">Em relação a sua saúde responda:</string>
+    <string name="tela_3_saude_f">é fumante?</string>
+    <string name="tela_3_saude_a">Faz uso de álcool?</string>
+    <string name="tela_3_saude_dr">Faz uso de drogas?</string>
+    <string name="tela_3_saude_h">Tem hipertensão arterial?</string>
+    <string name="tela_3_saude_di">Tem diabetes?</string>
+    <string name="tela_3_saude_avc">Teve AVC/Derrame?</string>
+
+
+    <string name="tela_4_title_message">Dados do Recém-Nascido</string>
+    <string name="tela_4_nome">Nome do recém-nascido</string>
+    <string name="tela_4_data">Data de nascimento:</string>
+    <string name="tela_4_genero">Sexo da criança:</string>
+    <string name="tela_4_gener_m">Masculino</string>
+    <string name="tela_4_genero_f">Feminino</string>
+    <string name="tela_4_peso">Peso da criança ao nascimento(Kg):</string>
+    <string name="tela_4_altura">Altura(cm):</string>
+    <string name="tela_4_foto">Foto do Bebê</string>
+    <string name="title_activity_tela_cadastro3">TelaCadastro3</string>
+    <string name="title_activity_tela_sobre">Sobre</string>
+    <string name="title_activity_tela_cadastro4">TelaCadastro4</string>
+
+    <string-array name="array_primeiro_mes_est_civil">
+        <item>-Selecione-</item>
+        <item>Vive com marido ou companheiro</item>
+        <item>Vive sem marido ou companheiro</item>
+    </string-array>
+
+    <string-array name="array_onde_conheceu_app">
+        <item>-Selecione-</item>
+        <item>Cadastramento no HSVP</item>
+        <item>Impresso - folder </item>
+        <item>Online-redes sociais</item>
+        <item>Outro - qual?</item>
+
+    </string-array>
+
+    <string-array name="array_parentesco">
+        <item>-Selecione-</item>
+        <item>Mãe</item>
+        <item>Pai</item>
+        <item>Avô/Avó</item>
+        <item>Irmã/irmão</item>
+        <item>Outro</item>
+    </string-array>
+
+
+    <string-array name="array_primeiromes_renda">
+        <item>-Selecione-</item>
+        <item>Menor ou igual a 1 salário mínimo</item>
+        <item>1 a 3 salários mínimos</item>
+        <item>3 a 6 salários mínimos</item>
+        <item>6 a 10 salários mínimos</item>
+        <item>Maior que 10 salários mínimos</item>
+    </string-array>
+
+    <string name="tela_1_primeiro_mes_title">Primeiro mês do bebê</string>
+    <string name="tela_1_primeiro_mes_est_civil">Estado Civil Materno:</string>
+    <string name="tela_1_primeiro_mes_renda">Renda Familiar:</string>
+    <string name="tela_1_primeiro_mes_pre_natal">Consultas pré-natais</string>
+    <string name="tela_1_primeiro_mes_peso_atual">Peso atual do bebê</string>
+    <string name="tela_1_primeiro_mes_altura_atual">Altura atual do bebê</string>
+
+    <string name="tela_2_primeiro_mes_n_gestacoes">Quantas gestações a mãe teve, incluindo a atual? </string>
+    <string name="tela_2_primeiro_mes_n_partos_normais">Quantos partos normais foram realizados? </string>
+    <string name="tela_2_primeiro_mes_n_cesaria">Quantas cesárias foram realizadas?</string>
+    <string name="tela_2_primeiro_mes_n_aborto">Sofreu algum aborto? Quantos?</string>
+    <string name="tela_2_primeiro_mes_tipo_parto">Tipo de parto:</string>
+
+    <string-array name="array_tipoParto">
+        <item>-Selecione-</item>
+        <item>Vaginal</item>
+        <item>Vaginal com fórceps</item>
+        <item>Vaginal com vácuo</item>
+        <item>Vaginal induzido</item>
+        <item>Vaginal induzido com fórceps</item>
+        <item>Vaginal com analgesia</item>
+        <item>Vaginal com analgesia com fórceps</item>
+        <item>Cesariana</item>
+    </string-array>
+
+    <string name="tela_3_primeiro_mes_razao_cesaria_pergunta">Qual a razão da cesariana?</string>
+    <string-array name="array_cesarea">
+        <item>-Selecione-</item>
+        <item>Sofrimento fetal</item>
+        <item>Desproporção F-P</item>
+        <item>Hemorragia materna</item>
+        <item>Parada de progressão</item>
+        <item>Pré-eclâmpsia</item>
+        <item>Eclâmpsia</item>
+        <item>Pós-maturidade</item>
+        <item>Diabetes materna</item>
+        <item>Para ligar trompas</item>
+        <item>Repetição</item>
+        <item>Morte fetal</item>
+        <item>Eletiva</item>
+        <item>Outra</item>
+        <item>Desconhecida</item>
+    </string-array>
+
+    <string name="tela_4_primeiro_mes_razao_ind">Qual a razão da indução?</string>
+    <string-array name="array_inducao">
+        <item>-Selecione-</item>
+        <item>Pós-maturidade</item>
+        <item>Pré-eclâmpsia</item>
+        <item>Bolsa Rota</item>
+        <item>ISO-Imunização RH</item>
+        <item>Morte fetal</item>
+        <item>Eletiva</item>
+        <item>Outra</item>
+        <item>Desconhecida</item>
+    </string-array>
+
+
+    <string name="tela_5_primeiro_mes_title">Questionário Perinatal</string>
+    <string name="tela_5_primeiro_mes_saude">Condições de saude do bebê:</string>
+    <string name="tela_5_primeiro_mes_alimentacao">Alimentação:</string>
+    <string name="tela_5_primeiro_mes_dias_hospital">Dias passados no hospital</string>
+    <string name="tela_5_primeiro_mes_anormalidade">A criança apresentou alguma anormalidade?
+    </string>
+
+    <string-array name="array_saudeBebe">
+        <item>-Selecione-</item>
+        <item>Sadio</item>
+        <item>Doente</item>
+        <item>Óbito</item>
+    </string-array>
+    <string-array name="arrayAlimentacao">
+        <item>-Selecione-</item>
+        <item>Leite materno exclusivamente</item>
+        <item>Leite materno e mamadeira</item>
+        <item>Mamadeira exclusivamente</item>
+    </string-array>
+    <string-array name="array_anormalidade">
+        <item>-Selecione-</item>
+        <item>Icterísia importante</item>
+        <item>Trauma por acidente</item>
+        <item>Diarréia</item>
+        <item>Infecção respiratória</item>
+        <item>Outra infecção</item>
+    </string-array>
+
+
+    <string name="tela_1_terceiro_mes_title">Terceiro mês do bebê</string>
+    <string name="tela_1_terceiro_mes_peso">Peso atual do bebê:</string>
+    <string name="tela_1_terceiro_mes_alt">Altura atual do bebê</string>
+    <string name="tela_1_terceiro_mes_chupeta">Faz uso de chupeta?</string>
+    <string name="tela_1_terceiro_mes_chupeta_s">Sim</string>
+    <string name="tela_1_terceiro_mes_chupeta_n">Não</string>
+    <string name="tela_1_terceiro_mes_frequencia_chup">Caso o bebê utilize chupeta, qual a
+        frequência de utilização?
+    </string>
+    <string name="tela_1_terceiro_mes_frequencia_chup_tdo">Durante todo o dia</string>
+    <string name="tela_1_terceiro_mes_frequencia_chup_quando">De vez em quando</string>
+    <string name="tela_1_terceiro_mes_frequencia_chup_dormir">Para dormir</string>
+    <string name="tela_1_terceiro_mes_alim">Alimentação:</string>
+    <string name="tela_1_terceiro_mes_alim_leit">Leite materno exclusivamente</string>
+    <string name="tela_1_terceiro_mes_alim_leit_mama">Leite materno e mamadeira</string>
+    <string name="tela_1_terceiro_mes_alim_mama">Mamadeira Exclusiva</string>
+    <string name="tela_1_terceiro_mes_alim_leit_mama_outro">Leite materno, mamadeira e outros alimentos</string>
+    <string name="tela_1_terceiro_mes_alim_mama_outro">Mamadeira e outros alimentos</string>
+    <string-array name="array_alimentacao3">
+        <item>-Selecione-</item>
+        <item>Leite materno exclusivamente</item>
+        <item>Leite materno e mamadeira</item>
+        <item>Mamadeira Exclusiva</item>
+        <item>Leite materno, mamadeira e outros alimentos</item>
+        <item>Mamadeira e outros alimentos</item>
+    </string-array>
+
+
+    <string name="tela_2_terceiro_mes_liq">Quais dos liquidos abaixo o bebê já ingeriu?</string>
+    <string name="tela_2_terceiro_mes_liq_acho">Achocolatado</string>
+    <string name="tela_2_terceiro_mes_liq_cha">Chá</string>
+    <string name="tela_2_terceiro_mes_liq_cafe">Café</string>
+    <string name="tela_2_terceiro_mes_liq_suco">Suco</string>
+    <string name="tela_2_terceiro_mes_liq_refri">Refrigerante</string>
+    <string name="tela_2_terceiro_mes_liq_caldo">Caldo de alimentos</string>
+    <string name="tela_2_terceiro_mes_liq_leite_p">Leite em pó</string>
+    <string name="tela_2_terceiro_mes_liq_leite_m">Leite materno</string>
+    <string name="tela_2_terceiro_mes_boca">É realizada higienização na boca da criança?</string>
+    <string name="tela_2_terceiro_mes_boca_n">Não</string>
+    <string name="tela_2_terceiro_mes_boca_s">Sim</string>
+
+    <string name="tela_1_sexto_mes_title">Sexto mês do bebê</string>
+    <string name="tela_1_sexto_mes_peso">Peso atual do bebê:</string>
+    <string name="tela_1_sexto_mes_alt">Altura atual do bebê</string>
+    <string name="tela_1_sexto_mes_alim">Quais alimentos abaixo a criança já comeu?</string>
+    <string name="tela_1_sexto_mes_alim_fru">Frutas</string>
+    <string name="tela_1_sexto_mes_alim_ovo">Ovos</string>
+    <string name="tela_1_sexto_mes_alim_arroz">Arroz</string>
+    <string name="tela_1_sexto_mes_alim_feij">Feijão</string>
+    <string name="tela_1_sexto_mes_alim_ming">Mingau</string>
+    <string name="tela_1_sexto_mes_alim_leg">Legumes/verduras</string>
+    <string name="tela_1_sexto_mes_alim_massa">Massas</string>
+    <string name="tela_1_sexto_mes_alim_bat">Batatas/Aipim</string>
+    <string name="tela_1_sexto_mes_alim_carne">Carne</string>
+    <string name="tela_1_sexto_mes_alim_doc">A criança já ingeriu algum alimento doce? Qual</string>
+    <string name="tela_1_sexto_mes_alim_doc_s">Sim</string>
+    <string name="tela_1_sexto_mes_alim_doc_n">Não</string>
+
+    <string name="tela_2_sexto_mes_alim_refr">A criança já tomou refrigerante?</string>
+    <string name="tela_2_sexto_mes_alim_refr_s">Sim</string>
+    <string name="tela_2_sexto_mes_alim_refr_n">Não</string>
+    <string name="tela_2_sexto_mes_dent">O bebê já tem algum dente?</string>
+    <string name="tela_2_sexto_mes_dent_s">Sim</string>
+    <string name="tela_2_sexto_mes_dent_n">Não</string>
+
+    <string name="tela_um_ano_title">Um ano do bebê</string>
+    <string name="tela_um_ano_peso">Peso atual do bebê:</string>
+    <string name="tela_um_ano_alt">Altura atual do bebê</string>
+    <string name="tela_um_ano_amam">A criança ainda está sendo amamentada?</string>
+    <string name="tela_um_ano_amam_s">Sim</string>
+    <string name="tela_um_ano_amam_n">Não</string>
+    <string name="tela_um_ano_vezes_ali">Quantas vezes ao dia a criança faz uso de alimentação
+        complementar ao leite materno?
+    </string>
+    <string name="tela_um_ano_vezes_escov">Quantas vezes ao dia é realizada a escovação dos dentes
+        da criança?
+    </string>
+    <string name="tela_um_ano_chup">A criança faz uso de chupeta?</string>
+    <string name="tela_um_ano_chup_s">Sim</string>
+    <string name="tela_um_ano_chup_n">Não</string>
+
+    <string name="cadastro_inicial_title">Cadastro Inicial</string>
+    <string name="cadastro_inicial_btn_proximo">Próximo</string>
+
+    <string name="cadastro_inicial_1_titulo">Identificação do Usuário Responsável pela Criança</string>
+    <string name="cadastro_inicial_1_hint_cartao">Número do RG (Opcional) </string>
+    <string name="cadastro_inicial_1_hint_nome">Nome Completo</string>
+    <string name="cadastro_inicial_1_hint_data">Data de nascimento</string>
+    <string name="cadastro_inicial_1_hint_cidade">Residente na Cidade de</string>
+    <string-array name="cor">
+        <item>Cor:</item>
+        <item>Branca</item>
+        <item>Preta</item>
+        <item>Parda</item>
+        <item>Amarela</item>
+        <item>Indígena</item>
+    </string-array>
+
+
+    <string name="cadastro_inicial_2_hint_fone1">Telefone 1</string>
+    <string name="cadastro_inicial_2_hint_fone2">Telefone 2 (opcional)</string>
+    <string name="cadastro_inicial_2_hint_fone3">Telefone 3 (opcional)</string>
+    <string name="cadastro_inicial_2_hint_email">E-mail</string>
+
+    <string name="cadastro_inicial_3_titulo">Dados do responsável</string>
+    <string name="cadastro_inicial_3_pergunta1">Qual é o seu nível de escolaridade?</string>
+    <string name="cadastro_inicial_3_pegunta2">Qual é a sua situação no mercado de trabalho?
+    </string>
+    <string name="cadastro_inicial_3_pergunta3">Responda com relação à sua saúde:</string>
+    <string name="cadastro_inicial_3_fuma">É Fumante?</string>
+    <string name="cadastro_inicial_3_alcool">Faz o uso de álcool?</string>
+    <string name="cadastro_inicial_3_drogas">Faz o uso de outras drogas?</string>
+    <string name="cadastro_inicial_3_hipertensao">Tem hipertensão arterial?</string>
+    <string name="cadastro_inicial_3_diabetes">Tem diabetes?</string>
+    <string name="cadastro_inicial_3_avc">Já teve um AVC/Derrame?</string>
+    <string-array name="escolaridade">
+        <item>-Selecione-</item>
+        <item>Ensino Fundamental Incompleto</item>
+        <item>Ensino Fundamental Completo</item>
+        <item>Ensino Médio Incompleto</item>
+        <item>Ensino Médio Completo</item>
+        <item>Ensino Superior Incompleto</item>
+        <item>Ensino Superior Completo</item>
+    </string-array>
+
+    <string-array name="trabalho">
+        <item>-Selecione-</item>
+        <item>Empregador</item>
+        <item>Assalariado com carteira de trabalho</item>
+        <item>Assalariado sem carteira de trabalho</item>
+        <item>Autônomo com previdência social</item>
+        <item>Autônomo sem previdência social</item>
+        <item>Aposentado/Pensionista</item>
+        <item>Desempregado</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string name="cadastro_inicial_4_titulo">Dados do Recém-Nascido</string>
+    <string name="cadastro_inicial_4_hint_nome">Nome do bebê</string>
+    <string name="cadastro_inicial_4_hint_altura_bebe">Altura ao nascimento</string>
+    <string name="cadastro_inicial_4_hint_peso_bebe">Peso ao nascimento</string>
+    <string name="cadastro_inicial_4_fotobebe">Foto do Bebê</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="cadastro_inicial_4_botao_concluído">Concluído</string>
+
+    <string name="dialog_camera">Deseja utilizar uma imagem do celular?</string>
+    <string name="toast_erro_valida">Favor preencher todos os campos!</string>
+    <string name="dialog_abandonar">Deseja abandonar o cadastro?</string>
+    <string name="toast_conclui_cadastro_inicial">Cadastro inicial concluído com sucesso!</string>
+    <string name="toast_erro_foto">Adicione a fotoPerfil do bebê para continuar</string>
+    <string name="dialog_cadastro_inicial_finalizado">Você terminou o cadastro inicial do app,
+        dirija-se ao Cadastro do primeiro mes para continuar o acompanhamento
+    </string>
+    <string name="dialog_cadastro_primeiro_mes_finalizado">Você terminou o cadastro do primeiro mês,
+        daqui a 2 meses você pode continuar o acompanhamento
+    </string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+
+    <string name="tela_sobre_2">A aplicação foi desenvolvida em uma parceria com a UFCSPA, com orientação dos professores Cristiano Bonato Both e Matias Klafke Schimuneck, pelos seguintes alunos do curso de graduação de Informática Biomédica: Ícaro Castro, Rafael Wurster, Eduardo Pooch e Meiski Vedovatto.</string>
+    <string name="tela_sobre_1">Esse aplicativo faz parte de um projeto idealizado por Caroline Magnabosco, aluna da Faculdade de Odontologia da UPF, e sua orientadora professora Juliane Bervian.</string>
+    <string name="tela_sobre_titulo">Sobre o aplicativo</string>
+    <string name="button_ok">OK</string>
+
+    <string name="title_info">Informações</string>
+    <string name="tela_informacoes">A cárie precoce da infância representa a doença crônica mais frequente durante esta faixa etária, constituindo-se um grave problema de saúde pública no mundo. A informação a respeito dos cuidados bucais desde o nascimento é fundamental para a prevenção dessa doença.</string>
+
+    <string name="dica_amamenta_1">• O bebê deve estar calmo e acordado;</string>
+    <string name="dica_amamenta_2">• A mãe deve estar com as mãos limpas;</string>
+    <string name="dica_amamenta_3">• Iniciar pela mama que está mais cheia;</string>
+    <string name="dica_amamenta_4">• A cabeça do bebê deve estar alinhada com a coluna e estar o
+        mais vertical possível
+    </string>
+    <string name="dica_amamenta_5">• O bebê deve abocanhar o bico grande parte da aréola</string>
+    <string name="dica_amamenta_6">• O lugar ideal para a amamentação é um lugar calmo, sem muita
+        luz, barulho e passagem de pessoas;
+    </string>
+    <string name="dica_amamenta_7">• Deve-se deixar a criança mamar até que largue o seio;</string>
+    <string name="dica_amamenta_8">• Após amamentar, colocar o bebê elevado para poder arrotar.
+    </string>
+    <string name="btnDicas">OK</string>
+
+    <string name="title_chupeta">Uso de Chupeta</string>
+    <string name="tela_chupeta">A recomendação da Associação Brasileira de Odontopediatria e do Ministério da Saúde é de que a idade limite para o uso da chupeta seja de até os três anos de idade. No entanto, estas instituições reconhecem que a situação ideal seria a remoção gradual até os dois anos, quando a chance de autocorreção de possíveis alterações nas arcadas dentárias é mais favorável. O uso de chupeta além do tempo limite recomendado pode ocasionar deformidade nos dentes e nas estruturas que os envolvem.</string>
+
+    <string name="title_denteLeite">Dentes de Leite</string>
+    <string name="tela_denteLeite1">• O 1º dente de leite surge na cavidade oral em torno dos seis meses de vida;</string>
+    <string name="tela_denteLeite2">• A dentição decídua (de leite) estará completa por volta dos 24 - 30 meses de idade e é composta por 20 dentes, 10 na arcada superior e 10 na arcada inferior.</string>
+
+    <string name="title_dentePermanente">Dentes Permanentes</string>
+    <string name="tela_DentesPermanentes">Os dentes permanentes aparecem por volta dos seis anos de idade com a chegada dos primeiros molares, que nascem atrás do último dente decíduo. Além disso, irá ocorrer a chegada dos incisivos, embora estes sejam dentes que serão substituídos, diferente dos primeiros molares.</string>
+
+    <string name="title_ficaDica">Fica a Dica</string>
+    <string name="ficaDicaA">De acordo com a Academia Americana de Pediatria e da Sociedade Brasileira Pediátrica recomenda-se que crianças a partir do primeiro dente usem escova dental macia.</string>
+    <string name="ficaDicaB">E a quantidade de pasta de dente equivalente a um grão de arroz até os dois anos, depois disso, os pais podem aumentar gradativamente até o tamanho de um grão de ervilha.</string>
+
+    <string name="ficaDica2">A Associação Americana de Pediatria aprova o uso de creme dental com flúor desde o primeiro dente do bebê.</string>
+
+    <string name="creditos">Créditos: Freepik e Flaticon.</string>
+    <string name="termoUsoApp">Você e seu(ua) filho(a)  estão   sendo  convidados(as) a participarem da pesquisa sobre Estratégias de transferência do cuidado em saúde: ações odontológicas de inovação (mobile health) na atenção primária da infância de   responsabilidade   da   pesquisadora Prof. Dra. Juliane Bervian. \n \nEsta pesquisa justifica-se pela importância da promoção de saúde ser realizada bem cedo na vida das crianças. Quanto maior o nível de orientações e cuidados dos pais em relação a saúde do bebê e da criança, mais possibilidade de evitar problemas bucais estas crianças irão ter. Esta pesquisa pretende auxiliar os pais e ou responsáveis através de telefone celular auxilia na transferência de cuidado em saúde bucal para o domicilio da criança.\n \nO objetivo desta pesquisa é a diminuição da doença cárie e apoio a promoção de saúde bucal. Buscamos uma atenção precoce desce bebê para que seu(a) filho(a) não tenha a doença.\n \nA participação de seu(ua) filho(a) na pesquisa será iniciamente através de um questionário realizado em aproximadamente 15 minutos, ainda na maternidade do Hospital. Após isso, caso você permita serão feitas visitas domiciliares e também monitoramento da saúde bucal de seu(ua) filho(a) através do telefone celular.\n \nVocês serão beneficiados porque se for identificado algum sinal de desconforto ou alguma alteração, este terá canal aberto e permanente para buscar soluções, assim como para  receber orientações e encaminhá-lo(a) a profissionais especializados na área se for o caso.\n \nVocê terá a garantia de receber esclarecimentos sobre qualquer dúvida relacionada a pesquisa e poderá ter acesso aos seus dados em qualquer etapa do estudo.\n \nA participação de seu(ua) filho(a) nessa pesquisa não é obrigatória e você pode desistir a qualquer momento, retirando seu consentimento.\n \nCaso tenha alguma despesa relacionada à pesquisa, você terá o direito de ser ressarcido(a) e você não receberá pagamento pela participação do seu(ua) filho(a) no estudo.\n \nAs informações serão gravadas e posteriormente destruídas. Os dados relacionados à identificação e de seu(ua) filho(a) não serão divulgados, apenas os resultados da pesquisa serão divulgados.\n \nCaso você tenha dúvidas sobre a pesquisa que não constam neste termo, e caso se considere prejudicado(a) na sua dignidade e autonomia, você pode entrar em contato com a pesquisadora Prof. Dra. Juliane Bervian (54) 3317-2409, ou com o curso de Odontologia (54) 3316-8402, ou também pode consultar o Comitê de Ética em Pesquisa da UPF, pelo telefone (54) 3316-8157, no horário das 08h às 12h e das 13h30min às 17h30min, de segunda a sexta-feira.\n \nDessa forma, se você concorda que seu(ua) filho(a) participe da pesquisa como consta nas explicações e orientações acima, concorde com os termos abaixo.\n \nDesde já, agradecemos a sua colaboração.</string>
+
+    <string name="dialog_pEa">Confira se a altura e peso do bebê estão corretos</string>
+    <string name="terceiro_mes_tela_5_dica_4">• Além de realizar a limpeza bucal do bebê, estará treinando-o a se acostumar com esse hábito de higiene.</string>
+    <string name="terceiro_mes_tela_5_dica_3">• Não dura mais do que 10 segundos;</string>
+    <string name="terceiro_mes_tela_5_dica_2">• Aproveite a hora do banho para realizar essa atividade;</string>
+    <string name="terceiro_mes_tela_5_dica_1">• Faça a limpeza da boca do bebê pelo menos uma vez ao dia, utilize uma gaze úmida;</string>
+    <string name="terceiro_mes_tela_6_dica_1">• Não introduza alimentos doces na dieta do seu bebê;</string>
+    <string name="terceiro_mes_tela_6_dica_2">• A Organização Mundial da Saúde recomenda fazer aleitamento materno exclusivo até os 6 meses de idade;</string>
+    <string name="terceiro_mes_tela_6_dica_3">• Caso esteja utilizando complemento, não adicione açúcar na mamadeira.</string>
+    <string name="title_activity_tela_quest_inicio">Tela_quest_inicio</string>
+    <string name="sexto_mes_pergunta_doce">A criança já comeu algum alimento doce?</string>
+    <string name="qual">Qual?</string>
+    <string name="sexto_mes_pergunta_refri">O bebê já tomou refrigerante?</string>
+    <string name="sexto_mes_pergunta_dente">O bebê já tem algum dente?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="altura_do_bebe_em_cm">Altura do bebê (em cm)</string>
+    <string name="peso_do_bebe_em_kg">Peso do bebê (em kg)</string>
+    <string name="foto_de_perfil_do_bebe">Foto de perfil do bebê</string>
+    <string name="title_activity_tela3_sexto_mes">Sexto mês</string>
+
+    <string name="title_6m_tela1">Higiene Bucal do Bebê</string>
+    <string name="dica1_m6_tela1">• É neste período que irão nascer os primeiros dentes de leite do bebê;</string>
+    <string name="dica2_m6_tela1">• Realize a escovação desses dentes com uma escova dedal de cerdas macias, como na imagem abaixo;</string>
+    <string name="dica3_m6_tela1">• A escovação é recomendada 3 vezes ao dia (cedo, após o almoço e antes de dormir);</string>
+    <string name="dica4_m6_tela1">• Continue utilizando a gaze úmida para limpar a língua e as regiões sem dentes;</string>
+
+    <string name="title_6m_tela2">Dieta Alimentar</string>
+    <string name="subtitle_m6_tela2">Segundo orientações do Ministério da Saúde a partir dos 6 meses deve-se:</string>
+    <string name="dica1_m6_tela2">• Dar alimentos complementares três vezes ao dia, se a criança receber leite materno;</string>
+    <string name="dica2_m6_tela2">• Cinco vezes ao dia, se estiver desmamada;</string>>
+
+    <string name="dica2_m6_tela3">• Não dê refrigerante ao bebê;</string>
+    <string name="dica3_m6_tela3">• Nunca adicione açúcar na mamadeira;</string>
+    <string name="dica4_m6_tela3">• Ensine-o a tomar leite puro;</string>
+    <string name="tela_1_um_ano_title">Primeiro ano do bebê</string>
+
+</resources>
+
+

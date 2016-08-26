@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#eeeeee"
+                        android:layout_marginBottom="15dp"
+                        >
+
+
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/tela_2_terceiro_mes_liq"
+                            android:textSize="21sp"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:typeface="normal" />
+
+                    </LinearLayout>
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxAchocolatado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_acho"
+                        android:textColor="#9e9e9e" />
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCafe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_cafe"
+                        android:textColor="#9e9e9e" />
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCaldo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_caldo"
+                        android:textColor="#9e9e9e" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_cha"
+                        android:textColor="#9e9e9e" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxLeiteMat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_leite_m"
+                        android:textColor="#9e9e9e" />
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxLeitePo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_leite_p"
+                        android:textColor="#9e9e9e" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxRefri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_refri"
+                        android:textColor="#9e9e9e" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxSuco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/tela_2_terceiro_mes_liq_suco"
+                        android:textColor="#9e9e9e" />
+
+                    <Button
+                        android:id="@+id/teceiroMesTela03btNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_margin="25dp"
+                        android:background="#afd1b4"
+                        android:text="@string/cadastro_inicial_btn_proximo"
+                        android:textColor="#435843"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

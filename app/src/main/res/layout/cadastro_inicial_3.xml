@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#87bdb1">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eeeeee">
+
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:id="@+id/imageView5"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/icon_mae" />
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="25sp"
+                        android:text="@string/cadastro_inicial_3_titulo"
+                        android:typeface="normal"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView5"
+                        android:layout_toEndOf="@+id/imageView5" />
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="30dp">
+
+
+
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="21sp"
+                        android:text="@string/cadastro_inicial_3_pergunta1"
+                        android:textAlignment="center"
+                        android:typeface="normal"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_escolaridade"
+                        android:focusable="true"
+                        android:spinnerMode="dialog"
+
+                        android:layout_below="@+id/textView13"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="21sp"
+                        android:text="@string/cadastro_inicial_3_pegunta2"
+                        android:textAlignment="center"
+                        android:typeface="normal"
+                        android:layout_below="@id/spinner_escolaridade"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner_trabalho"
+                        android:focusable="true"
+                        android:spinnerMode="dialog"
+
+                        android:layout_below="@+id/textView14"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"/>
+
+                    <TextView
+
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="21sp"
+                        android:text="@string/cadastro_inicial_3_pergunta3"
+                        android:textAlignment="center"
+                        android:typeface="normal"
+                        android:layout_below="@id/spinner_trabalho"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="5dp" />
+
+
+
+
+                    />
+
+                </RelativeLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_fuma"
+                    android:id="@+id/checkBoxFuma"
+                    android:textColor="#9e9e9e"
+                    android:enabled="true"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_alcool"
+                    android:id="@+id/checkBoxAlcool"
+                    android:textColor="#9e9e9e"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_drogas"
+                    android:id="@+id/checkBoxDrogas"
+                    android:textColor="#9e9e9e"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_hipertensao"
+                    android:id="@+id/checkBoxPressao"
+                    android:textColor="#9e9e9e"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_diabetes"
+                    android:id="@+id/checkBoxDiabetes"
+                    android:textColor="#9e9e9e"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_3_avc"
+                    android:id="@+id/checkBoxAVC"
+                    android:textColor="#9e9e9e"
+                    android:checked="false"
+                    android:layout_marginStart="15dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cadastro_inicial_btn_proximo"
+                    android:id="@+id/cadastro03btNext"
+                    android:textColor="#86000000"
+                    android:textSize="17sp"
+                    android:background="#87bdb1"
+                    android:layout_margin="25dp" />
+
+
+                 </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

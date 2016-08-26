@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:layout_width="170dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/balloon"
+                        android:background="@drawable/balloon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_ficaDica"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="19sp"
+                        android:textColor="@color/mdtp_background_color"
+                        android:textStyle="bold"
+                        android:layout_marginTop="22dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/balloon"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/linearLayoutDicas"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Alguns cuidados podem ajudar na hora de amamentar seu filho, aqui vão algumas dicas:"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="10dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="6dp"
+                            >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:text="@string/dica_amamenta_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_4" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_5" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_6" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_7" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="13.5sp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/dica_amamenta_8" />
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center"
+                                android:id="@+id/imagemDicaAmamentando"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/imagem_amament" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnDicas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#D3E2B6"
+                        android:text="@string/btnDicas"
+                        android:textColor="#435843"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_below="@+id/linearLayoutDicas"
+                        android:layout_centerHorizontal="true"
+
+
+                        />
+
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

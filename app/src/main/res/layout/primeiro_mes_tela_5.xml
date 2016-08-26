@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/relative_titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#eeeeee">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="3dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/icon_rn" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_toEndOf="@+id/imageView5"
+                            android:layout_toRightOf="@+id/imageView5"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="@string/tela_5_primeiro_mes_title"
+                            android:textSize="25sp"
+                            android:typeface="normal" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/tela_5_primeiro_mes_saude"
+                        android:textSize="15sp" />
+
+
+                    <Spinner
+                        android:id="@+id/spin_condicaoBebe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dialog" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/tela_5_primeiro_mes_alimentacao"
+                        android:textSize="15sp" />
+
+                    <Spinner
+                        android:id="@+id/spin_alimentacao"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dialog" />
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/icon_hospital"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/icon_hospital"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="2dp"
+                            />
+
+                    <EditText
+                        android:id="@+id/primeiro_mes_dias_hospital"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="25"
+                        android:hint="@string/tela_5_primeiro_mes_dias_hospital"
+                        android:inputType="number"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+
+
+                        />
+
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="@string/tela_5_primeiro_mes_anormalidade"
+                        android:textSize="15sp" />
+
+
+                    <Spinner
+                        android:id="@+id/spin_anormalidadeBebe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dialog" />
+
+
+                    <Button
+                        android:id="@+id/primeiroMesTela05btNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/cadastro_inicial_btn_proximo"
+                        android:textColor="#435843"
+                        android:textSize="17sp"
+
+
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

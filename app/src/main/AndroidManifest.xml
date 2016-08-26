@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ufcspa.detalcareofbabies">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controller.TelaInicial"
+            android:label="@string/app_name"
+            android:largeHeap="true" />
+        <activity
+            android:name=".controller.TelaTermoUso"
+            android:label="@string/app_name"
+            android:largeHeap="true" />
+        <activity
+            android:name=".controller.TelaQuestInicio"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".controller.TelaSobre"
+            android:label="@string/title_activity_tela_sobre"
+            android:largeHeap="true" />
+        <activity
+            android:name=".controller.TelaInfo"
+            android:label="Informações" />
+        <activity
+            android:name=".controller.primeiroMes.Tela6PrimeiroMes"
+            android:label="Tire a Foto do bebê" />
+        <activity
+            android:name=".controller.primeiroMes.Tela1PrimeiroMes"
+            android:label="@string/tela_1_primeiro_mes_title" />
+        <activity
+            android:name=".controller.primeiroMes.Tela2PrimeiroMes"
+            android:label="@string/tela_1_primeiro_mes_title" />
+        <activity
+            android:name=".controller.primeiroMes.Tela3PrimeiroMes"
+            android:label="@string/tela_1_primeiro_mes_title" />
+        <activity
+            android:name=".controller.primeiroMes.Tela4PrimeiroMes"
+            android:label="@string/tela_1_primeiro_mes_title" />
+        <activity
+            android:name=".controller.primeiroMes.Tela5PrimeiroMes"
+            android:label="@string/tela_1_primeiro_mes_title" />
+        <activity
+            android:name=".controller.SplashScreen"
+            android:label="Dental Care of Babies"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.cadastroInicial.TelaCadastroInicial"
+            android:label="@string/cadastro_inicial_title" />
+        <activity
+            android:name=".controller.cadastroInicial.TelaCadastroInicial2"
+            android:label="@string/cadastro_inicial_title" />
+        <activity
+            android:name=".controller.cadastroInicial.TelaCadastroInicial3"
+            android:label="@string/cadastro_inicial_title" />
+        <activity
+            android:name=".controller.cadastroInicial.TelaCadastroInicial4"
+            android:label="@string/cadastro_inicial_title"
+            android:largeHeap="true" />
+        <activity
+            android:name=".controller.cadastroInicial.TelaCadastroInicial5"
+            android:label="@string/cadastro_inicial_title"
+            android:largeHeap="true" />
+        <activity
+            android:name=".controller.dicas.Dicas"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.terceiroMes.Tela1TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.terceiroMes.Tela2TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.terceiroMes.Tela3TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.terceiroMes.Tela4TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".controller.terceiroMes.Tela5TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.terceiroMes.Tela6TerceiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.primeiroMes.Tela7PrimeiroMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela1SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela2SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela3SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela4SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela5SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela6SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.sextoMes.Tela7SextoMes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.umAno.Tela1UmAno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".controller.umAno.Tela2UmAno" />
+        <activity android:name=".controller.umAno.Tela3UmAno"/>
+    </application>
+
+</manifest>
